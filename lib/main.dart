@@ -1,4 +1,5 @@
 
+import 'package:card_swiper/CardLabel.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_card_swiper/flutter_card_swiper.dart';
@@ -48,7 +49,6 @@ class _ExamplePageState extends State<Example> {
             Flexible(
               child: CardSwiper(
                 controller: controller,
-
                 cardsCount: cards.length,
                 onSwipe: _onSwipe,
                 onUndo: _onUndo,
